@@ -1,0 +1,79 @@
+@media screen and (max-width: 576px) {
+    body section .container {
+        padding: 12% 0;
+        width: 85%;
+    }
+    section .container h3 {
+        font-size: 20px;
+    }
+    section .container h2 {
+        font-size: 15px;
+    }
+    section .container p {
+        font-size: 14px;
+    }
+    section .container p b {
+        font-size: 16px;
+    }
+    section .container li {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    section .container {
+        width: 70%;
+    }
+}
+.author {
+    padding: 3% 5%;
+    background-color: #eee;
+    border-radius: 25px;
+}
+.container .author p {
+    margin-bottom: 3%;
+}
+.container {
+    padding: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 50%;
+}
+.container .title {
+    margin-bottom: 8%;
+    line-height: normal;
+}
+.container img {
+    margin-bottom: 8%;
+    width: 100%;
+}
+.container h3 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 54px;
+}
+.container h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 54px;
+}
+.container p {
+    margin-bottom: 8%;
+    font-size: 18px;
+    line-height: 28px;
+}
+.container p b {
+    font-size: 20px;
+    font-weight: 500;
+}
+.container ul {
+    margin-bottom: 8%;
+    padding-left: 4%;
+}
+.container li {
+    font-size: 18px;
+    line-height: 38px;
+}
+.nested-list {
+    margin-bottom: 0 !important;
+}
